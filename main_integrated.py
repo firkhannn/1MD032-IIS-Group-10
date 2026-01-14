@@ -250,7 +250,7 @@ class ElderCompanionBot:
     def sad_flow(self, user_input):
         fixed = "I’m sorry that you’re feeling sad and it is completely okay to feel this way. Would you like some music recommendations to help you feel a bit better?"
         choice = self.ask_yes_no(self.paraphrase(fixed, user_input))
-        self.safe_gesture("Tilt(direction='left)")
+        self.safe_gesture("Tilt")
         if choice:
             self.safe_gesture("Nod")
             self.do_music_reco()
@@ -300,7 +300,7 @@ class ElderCompanionBot:
 
     def surprise_flow(self, user_input):
         fixed = "Oh my, that is so surprising! I understand you got a shock, would you like to calm down with a slow breath?"
-        self.safe_gesture("Tilt(direction='left')")
+        self.safe_gesture("Tilt")
         choice = self.ask_yes_no(self.paraphrase(fixed, user_input))
         if choice:
             self.safe_gesture("Nod")
