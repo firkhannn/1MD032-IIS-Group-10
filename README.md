@@ -22,20 +22,13 @@ EmoConnect is composed of two primary sub-systems that run concurrently under a 
 * Integrates **Gemini LLM** to generate context-aware and emotionally adaptive responses.
 * Adjusts conversational tone, content, and flow based on detected emotional cues.
 
-## Performance
-
-* **Emotion classification accuracy:** 68.61%
-* **Context-adaptive response accuracy:** 85%
-
-These results demonstrate that EmoConnect can reliably detect emotional states and respond appropriately in emotionally sensitive conversations.
-
 ## Key Features
 
 * Real-time facial emotion recognition
 * Emotion-aware conversational responses
 * Auditory interaction via Furhat virtual robot
 * Modular architecture for perception and interaction
-* LLM-powered dialogue generation
+* LLM-powered dialogue
 
 ## Getting Started
 
