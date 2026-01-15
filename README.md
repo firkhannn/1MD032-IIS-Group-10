@@ -65,17 +65,3 @@ Follow the steps below to run the EmoConnect bot locally.
 5. **End the session**
    Press the **Stop** button to safely terminate the system.
 
-## Project Goal
-
-The goal of EmoConnect is to explore how emotion recognition and large language models can be combined to enhance human–robot interaction, particularly in assistive and companionship scenarios for elderly users. By responding not only to *what* users say but also to *how* they feel, EmoConnect aims to foster more emotionally intelligent and supportive interactions.
-
-## Future Work
-
-* Improving emotion classification accuracy
-* Expanding multimodal perception (e.g., voice emotion analysis)
-* Long-term user adaptation and personalization
-* Deployment on physical robot platforms
-
----
-
-*EmoConnect — Bridging emotional intelligence and human–robot interaction.*
