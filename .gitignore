@@ -1,0 +1,5 @@
+log.txt
+events.out.tfevents.*
+weights
+facial_emotion_detection_dataset
+.env
